@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+:root {
+  --primary-very-dark-blue: hsl(233, 47%, 7%);
+  --primary-dark-desaturated-blue: hsl(244, 38%, 16%);
+  --primary-soft-violet: hsl(277, 64%, 61%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --neutral-slightly-stat-transparent-white: hsla(0, 0%, 100%, 0.6);
+  --font-size: 62.5%;
+  --font-heading: "Inter", sans-serif;
+  --font-base: "Lexend Deca", sans-serif;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-base);
+}
+
+html{
+  font-size: var(--font-size);
+}
+
+body {
+  background-color: var(--primary-very-dark-blue);
+}
+.container {
+  width: 80%;
+  border-radius: 15px;
+  background-color: var(--primary-dark-desaturated-blue);
+  margin: auto;
+  margin-top: 20%;
+  color: white;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.desktop-image {
+  display: none;
+}
+.mobile-image {
+  background-color: rgba(167, 79, 221, 0.75);
+ border-top-right-radius: 15px;
+ border-top-left-radius: 15px;
+ margin-bottom: 5%;
+}
+
+.mobile-image img {
+  mix-blend-mode: overlay;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.bottom-section{
+  display:flex;
+  flex-direction: column;
+  padding: 6%;
+  font-size: 15px;
+}
+
+.bottom-section p{
+  margin-bottom: 10%;
+}
+
+h2{
+  margin-bottom: 5%;
+  color: var(--neutral-white);
+  font-size: 2.1rem;
+  
+  
+}
+
+.insights{
+  color: var(--primary-soft-violet);
+}
+.information{
+  color: var(--neutral-slightly-transparent-white)
+}
+
+.company span{
+  display:block;
+  text-transform: uppercase;
+  color: var(--neutral-slightly-transparent-white);
+  font-size: 1rem;
+  margin-top: 2%;
+  font-weight: 400;
+}
+
+.template span{
+  display:block;
+  text-transform: uppercase;
+  color: var(--neutral-slightly-transparent-white);
+  font-size: 1rem;
+  margin-top: 2%;
+  font-weight: 400;
+}
+
+.queries span{
+  display:block;
+  text-transform: uppercase;
+  color: var(--neutral-slightly-transparent-white);
+  font-size: 1rem;
+  margin-top: 2%;
+  font-weight: 400;
+}
+
+.company{
+ font-size: 1.6rem;
+ font-weight: 700;
+ 
+}
+
+.template{
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.queries{
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+@media (max-width: 1440px){
+
+}
